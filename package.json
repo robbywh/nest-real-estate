@@ -28,6 +28,10 @@
     "docker:down:test": "dotenv -e .env.test -- docker-compose -f docker-compose-test.yml down"
   },
   "dependencies": {
+    "@bull-board/api": "^5.10.2",
+    "@bull-board/express": "^5.10.2",
+    "@bull-board/nestjs": "^5.10.2",
+    "@nestjs/bull": "^10.0.1",
     "@nestjs/cache-manager": "^2.1.1",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.1.1",
@@ -35,6 +39,7 @@
     "@nestjs/mapped-types": "^2.0.4",
     "@nestjs/platform-express": "^10.0.0",
     "@prisma/client": "^5.6.0",
+    "bull": "^4.11.5",
     "cache-manager": "^5.3.1",
     "cache-manager-redis-store": "2",
     "class-transformer": "^0.5.1",
@@ -52,6 +57,7 @@
     "@types/cache-manager-redis-store": "^2.0.4",
     "@types/express": "^4.17.17",
     "@types/jest": "^29.5.2",
+    "@types/multer": "^1.4.11",
     "@types/node": "^20.3.1",
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
